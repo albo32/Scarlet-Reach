@@ -5,7 +5,7 @@
 	allowed_races = RACES_ALL_KINDS
 	outfit = /datum/outfit/job/roguetown/confessor
 	category_tags = list(CTAG_INQUISITION)
-	cmode_music = 'sound/music/combat_rogue.ogg'
+	cmode_music = 'sound/music/inquisitorcombat.ogg'
 
 /datum/outfit/job/roguetown/confessor
 	job_bitflag = BITFLAG_CHURCH
@@ -38,7 +38,7 @@
 			H.adjust_skillrank(/datum/skill/combat/bows, 4, TRUE)
 			backl = /obj/item/gun/ballistic/revolver/grenadelauncher/bow/recurve
 			beltr = /obj/item/quiver/arrows
-	H.set_blindness(0)		
+	H.set_blindness(0)
 	cloak = /obj/item/clothing/suit/roguetown/armor/longcoat
 	wrists = /obj/item/clothing/neck/roguetown/psicross/silver
 	gloves = /obj/item/clothing/gloves/roguetown/fingerless_leather
